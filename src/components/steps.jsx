@@ -58,9 +58,9 @@ export default function Step(){
 
 </div>
 <img src={exampleImage}         
-    className='group/img group-hover:w-96 rounded-xl skew-y-1  -skew-x-6 transition-all delay-700 ease-in-out duration-700 group-hover:delay-1000'
+    className='group/img group-hover:w-96 w-28 rounded-xl skew-y-1  -skew-x-6 transition-all delay-700 ease-in-out duration-700 group-hover:delay-1000'
               />
-            <div className=' w-52 absolute top-8 left-auto opacity-5 group-hover:opacity-100  text-start text-xs'>
+            <div className='-skew-x-6 transition-all delay-1000 skew-y-1 w-52 absolute top-8 left-auto opacity-0 hover:delay-700 group-hover:opacity-100  text-start text-xs'>
               <h1 className='capitalize '>your company</h1>
               <span className='w-full h-px bg-slate-400  inline-block'></span>
               <div className='rounded-full w-fit bg-orange-200 py-1 px-2 my-1 text-xs'>
