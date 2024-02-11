@@ -12,8 +12,8 @@ import { BsEmojiHeartEyesFill } from "react-icons/bs";
 
 export default function Middiv() {
   return (
-    <div className=' p-1 shadow md:w-1/2 '>
-    <div className='group/one m-4 p-2'>
+    <div className=' p-1 group/one flex shadow text-wrap '>
+    <div className=' m-4 p-2 md:w-1/2'>
 
       <div  className='p-3 bg-gray-900 text-white m-4 shadow-sm rounded-lg group-hover/one:translate-x-0 delay-100 group-hover/two:translate-x-0  opacity-90 group-hover/one:opacity-100 -translate-x-full transition-all ease-linear hover:delay-75 duration-700 hover:bg-slate-700'>
         <h1 className=' capitalize tracking-wide text-lg pb-2 font-serif'>the only <span className='text-orange-400'>remote-focused,worldwide job board</span> for tech startups.</h1>
@@ -89,6 +89,13 @@ export default function Middiv() {
       </div>
     </div>
 
+
+
+    <div className=''>
+      <span className='w-44 h-44 animate-move -translate-x-80 rounded-full inline-block bg-gradient-to-br from-slate-900 opacity-30 via-slate-600 to-slate-800  blur-sm '></span>
+      <span className='w-32 h-32 z-10 animate-move2 absolute right-1/2 top-1/2 rounded-full inline-block bg-gradient-to-br from-slate-900 opacity-30 via-slate-600 to-slate-800  blur-sm '></span>
+
+    </div>
     </div>
   )
 }

@@ -12,7 +12,7 @@ import { FaTwitter } from "react-icons/fa";
 
 export default function Facilities(){
   return (
-    <div className='flex flex-col md:grid md:grid-cols-3 md:gap-y-10 md:gap-x-1 space-y-6 my-20'>
+    <div className='flex flex-col md:grid md:grid-cols-3 md:gap-y-10 md:items-baseline md:gap-x-1 space-y-6 my-20'>
       <div className='text-slate-200 h-full shadow-md hover:-translate-y-3  transition-all duration-300 hover:shadow-slate-700 shadow-slate-800 bg-slate-900 p-6 rounded-xl mx-10 '>
 <FaLink className='text-4xl rounded-lg bg-orange-400 p-1'/>
         <h1 className='my-2'>

@@ -15,7 +15,9 @@ export default {
         bottom: '0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.06)',
       },
       animation:{
-        drop:"drop 2s linear infinite "
+        drop:"drop 2s linear infinite ",
+        move:"move 8s linear infinite",
+        move2:"move2 4s linear infinite "
       },
       keyframes:{
         drop:{
@@ -41,6 +43,39 @@ export default {
             opacity:0.4,
           },
 
+        },
+        move:{
+          "0%,100%":{
+            // transform: 'tr',
+            opacity:0.2,
+          },
+          "45%":{
+            transform: 'translateY(-20%)  translateX(4%)',
+          },
+        "65%":{
+          transform: 'translateY(30%)  translateX(8%)',
+        },
+          "85%":{
+            transform:'translateY(50%) translateX(26%) '
+          }
+        },
+        move2:{
+          "0%":{
+            // transform: 'translateY(23%) translateX(-56px)',
+            opacity:0.2,
+          },
+          "25%":{
+            transform: 'translateY(-20%) translateX(-40%) ',
+          },
+          "65%":{
+            transform: 'translateY(-30%) translateX(35%)',
+          },
+          "85%":{
+            transform:'translateY(-50%) translateX(5%)'
+          },
+          "100%":{
+            transform:'translateY(-20%) translateX(2%)'
+          }
         }
       },
     },

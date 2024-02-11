@@ -8,7 +8,7 @@ export default function Tabs(){
     }
   return (
       <>
-    <div className='' >
+    <div className='m-6' >
       <div className='text-center m-6'>
         <h1 className=' font-riot text-2xl capitalize text-slate-200 m-2'>how it works</h1>
         <span className='rounded-full relative w-full h-1 inline-block bg-slate-500'>
