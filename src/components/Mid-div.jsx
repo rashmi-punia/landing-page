@@ -30,7 +30,7 @@ export default function Middiv() {
         <p className='text-gray-400 leading-tight'>When Stripe, Zapier or Shopify hire remotely, they turn to Remotive. We specialize in serving tech startups. Are we any good at it? We’ve been in business for nine years and won tons of awards 
         <span className='inline-flex space-x-2 align-middle text-white mx-1 px-2'>
         
-        <GiMeditation />
+        <GiMeditation className='text-green-300' />
 
         </span></p>
       </div>
@@ -42,7 +42,7 @@ export default function Middiv() {
         <p className='text-gray-400 leading-tight'>When Stripe, Zapier or Shopify hire remotely, they turn to Remotive. We specialize in serving tech startups. Are we any good at it? We’ve been in business for nine years and won tons of awards
          <span className='inline-flex space-x-2 align-middle text-white mx-1 px-2'>
         
-        <GiHighFive />
+        <GiHighFive className='text-red-300' />
 
         </span></p>
       </div>
@@ -52,7 +52,7 @@ export default function Middiv() {
         <p className='text-gray-400 leading-tight'>When Stripe, Zapier or Shopify hire remotely, they turn to Remotive. We specialize in serving tech startups. Are we any good at it? We’ve been in business for nine years and won tons of awards
          <span className='inline-flex space-x-2 align-middle text-white mx-1 px-2'>
         
-        <BsEmojiHeartEyesFill />
+        <BsEmojiHeartEyesFill className='text-yellow-300 bg-red-600 rounded-full' />
 
 
         </span></p>
@@ -93,8 +93,8 @@ export default function Middiv() {
 
     <div className=''>
       <span className='w-44 h-44 animate-move -translate-x-80 rounded-full inline-block bg-gradient-to-br from-slate-900 opacity-30 via-slate-600 to-slate-800  blur-sm '></span>
-      <span className='w-40 h-40 z-10 animate-move2  absolute left-1/4 top-96 rounded-full inline-block bg-gradient-to-br from-slate-900 opacity-30 via-slate-600 to-slate-800  blur-sm '></span>
-      <span className='w-32 h-32 z-10 animate-move2 absolute right-44 top-44 rounded-full inline-block bg-gradient-to-br from-slate-900 opacity-30 via-slate-600 to-slate-800  blur-sm '></span>
+      <span className='w-40 h-40  animate-move2  absolute left-1/4 top-96 rounded-full inline-block bg-gradient-to-br from-slate-900 opacity-30 via-slate-600 to-slate-800  blur-sm '></span>
+      <span className='w-32 h-32 animate-move2 absolute right-44 top-44 rounded-full inline-block bg-gradient-to-br from-slate-900 opacity-30 via-slate-600 to-slate-800  blur-sm '></span>
 
 
     </div>

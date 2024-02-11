@@ -94,7 +94,7 @@ export default function Header() {
                 </svg>
               </button>
             </div>
-            <button className="relative group bg-slate-800 rounded focus:bg-slate-200 focus:text-slate-900 "   onClick={()=> toggleMenu()} >
+            <button className="relative group bg-slate-800 rounded hover:bg-slate-200 hover:text-slate-900 "   onClick={()=> toggleMenu()} >
               <svg
                 className="md:hidden float-right m-2"
                 xmlns="http://www.w3.org/2000/svg"
