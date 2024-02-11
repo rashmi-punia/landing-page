@@ -4,13 +4,14 @@ import Step from './components/steps'
 import Facilities from './components/facilities'
 import Tabs from './components/tabs'
 import Footer from './components/footer'
+import Header from './components/header'
 
 
 const App = () => {
   return (
 
 <div className='bg-gray-800'>
-
+<Header/>
 <Middiv/>
 <Step/>
 <Facilities/>

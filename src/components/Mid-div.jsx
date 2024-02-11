@@ -93,7 +93,9 @@ export default function Middiv() {
 
     <div className=''>
       <span className='w-44 h-44 animate-move -translate-x-80 rounded-full inline-block bg-gradient-to-br from-slate-900 opacity-30 via-slate-600 to-slate-800  blur-sm '></span>
-      <span className='w-32 h-32 z-10 animate-move2 absolute right-1/2 top-1/2 rounded-full inline-block bg-gradient-to-br from-slate-900 opacity-30 via-slate-600 to-slate-800  blur-sm '></span>
+      <span className='w-40 h-40 z-10 animate-move2  absolute left-1/4 top-96 rounded-full inline-block bg-gradient-to-br from-slate-900 opacity-30 via-slate-600 to-slate-800  blur-sm '></span>
+      <span className='w-32 h-32 z-10 animate-move2 absolute right-44 top-44 rounded-full inline-block bg-gradient-to-br from-slate-900 opacity-30 via-slate-600 to-slate-800  blur-sm '></span>
+
 
     </div>
     </div>

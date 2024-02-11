@@ -16,8 +16,8 @@ export default {
       },
       animation:{
         drop:"drop 2s linear infinite ",
-        move:"move 8s linear infinite",
-        move2:"move2 4s linear infinite "
+        move:"move 15s linear infinite",
+        move2:"move2 8s linear infinite "
       },
       keyframes:{
         drop:{
